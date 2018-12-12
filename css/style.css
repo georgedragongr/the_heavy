@@ -1,0 +1,261 @@
+/*BODY STYLE*/
+body {
+    background-color: black;
+}
+
+/*TEXT STYLES*/
+
+.span1 {
+	color: red;
+}
+
+.span2 {
+	color: #ff4d4d;
+}
+
+.txt2 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 40px;
+    cursor: default;
+}
+
+.txt3 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 30px;
+    cursor: default;
+}
+
+.txt4 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 15px;
+    cursor: default;
+}
+
+.txt5{
+    color: white;
+    cursor: default;
+}
+
+.albumlink {
+    font-family: 'Oswald', sans-serif;
+    color: green;
+    font-size: 15px;
+}
+
+.albumlink:hover {
+    font-family: 'Oswald', sans-serif;
+    color: limegreen;
+    font-size: 15px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.albumlink2 {
+    font-family: 'Oswald', sans-serif;
+    color: #ff3399;
+    font-size: 15px;
+}
+
+.albumlink2:hover {
+    font-family: 'Oswald', sans-serif;
+    color: #ff4da6;
+    font-size: 15px;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.hone {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    cursor: default;
+}
+
+.hone2 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    background-color: #ff3333;
+    padding: 20px;
+    cursor: default;
+}
+
+.hone3 {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    padding: 20px;
+    cursor: default;
+}
+
+.htwo {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    cursor: default;    
+}
+
+
+.menulink {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+#thb:hover {
+	color: #a6ff4d;
+	transition-duration: 0.4s;
+	text-decoration: none;
+}
+
+#dsc:hover {
+	color: #ffff1a;
+	transition-duration: 0.4s;
+	text-decoration: none;
+}
+
+#evnts:hover {
+	color: #ff1a1a;
+	transition-duration: 0.4s;
+	text-decoration: none;
+}
+
+#cont:hover {
+	color: #1a75ff;
+	transition-duration: 0.4s;
+	text-decoration: none;
+}
+
+.eihr {
+	background-color: white;
+	margin-right: 19%;
+	margin-left: 29%;
+}
+
+.eihr2 {
+	background-color: white;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+/*IMAGE STYLES*/
+.logo:hover {
+-webkit-filter: drop-shadow(2px 2px 2px #79ff4d);
+ filter: drop-shadow(2px 2px 2px #79ff4d);
+ transition-duration: 0.1s;
+}
+
+.sm {
+	-webkit-filter: grayscale(100%);
+  	filter: grayscale(100%);
+}
+
+.sm:hover {
+	-webkit-filter: grayscale(0%);
+  	filter: grayscale(0%);
+  	transition-duration: 0.4s;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.row3 {
+	margin-left: 60px;
+}
+
+/*CONTAINER STYLES*/
+
+.firstcont {
+	padding-top: 20px;
+}
+
+.mencols {
+	padding-top: 25px;
+}
+
+.containers {
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
+
+.containers2 {
+	padding-top: 10%;
+}
+
+
+#fdiv {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.text-block2 {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: red;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#theband {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#discography {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#events {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+#contact {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+/*#theband {
+	background-image: url("img/bg.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}*/
