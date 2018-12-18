@@ -1,6 +1,6 @@
 /*BODY STYLE*/
 body {
-    background-color: black;
+    background-color: white;
     text-align: center;
 }
 
@@ -12,7 +12,7 @@ body {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: red;
+    background-color: #ff3333;
     color: white;
     cursor: pointer;
     padding: 20px;
@@ -22,8 +22,10 @@ body {
 }
 
 #myBtn:hover {
-    background-color: white;
-    color: black;
+    background-color: #ff1a1a;
+    color: white;
+    border: 1px solid black;
+    transition-duration: 0.3s;
 }
 
 /* LOADER */
@@ -89,43 +91,65 @@ body {
 	 color: #ff4d4d;
 }
 
+.span3 {
+     color: #ff4d4d;
+}
+
+.span4 {
+     color: red;
+}
+
+.span3:hover {
+    font-family: 'Oswald', sans-serif;
+    color: #cc0000;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
 .txt2 {
     font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 40px;
+    color: black;
+    font-size: 30px;
     cursor: default;
 }
 
 .txt3 {
     font-family: 'Oswald', sans-serif;
-    color: white;
+    color: black;
     font-size: 30px;
     cursor: default;
 }
 
 .txt4 {
     font-family: 'Oswald', sans-serif;
-    color: white;
-    font-size: 15px;
+    color: black;
+    font-size: 20px;
     cursor: default;
+    font-weight:bold;
 }
 
 .txt5{
-    color: white;
+    color: black;
     cursor: default;
     font-family: 'Lobster', cursive;
+}
+
+.txt6 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 30px;
+    cursor: default;
 }
 
 .albumlink {
     font-family: 'Oswald', sans-serif;
     color: green;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .albumlink:hover {
     font-family: 'Oswald', sans-serif;
     color: limegreen;
-    font-size: 15px;
     text-decoration: none;
     transition-duration: 0.4s;
 }
@@ -133,13 +157,33 @@ body {
 .albumlink2 {
     font-family: 'Oswald', sans-serif;
     color: #ff3399;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .albumlink2:hover {
     font-family: 'Oswald', sans-serif;
-    color: #ff4da6;
-    font-size: 15px;
+    color: #4da6ff;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.albumlink3 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 20px;
+    font-weight:bold;
+}
+
+.albumlink3:hover {
+    font-family: 'Oswald', sans-serif;
+    color: #cc0000;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+.albumlink3:hover .span3 {
+    font-family: 'Oswald', sans-serif;
+    color: #cc0000;
     text-decoration: none;
     transition-duration: 0.4s;
 }
@@ -160,7 +204,7 @@ body {
 }
 
 .hone3 {
-    color: white;
+    color: black;
     font-family: 'Oswald', sans-serif;
     font-size: 90px;
     cursor: default;
@@ -173,9 +217,22 @@ body {
     cursor: default;    
 }
 
+.hthree {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    font-size: 1.6em;
+}
+
+.hthree:hover {
+    font-family: 'Oswald', sans-serif;
+    color: red;
+    font-size: 1.6em;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
 
 .menulink {
-	 color: white;
+	 color: black;
 	 font-family: 'Oswald', sans-serif;
 	 font-size: 1.6em;
 }
@@ -192,7 +249,33 @@ body {
 	 margin-left: 20%;
 }
 
+/*VIDEO STYLES*/
+.videos {
+  width: 700px;
+  height: 450px;
+}
+
 /*IMAGE STYLES*/
+
+.membsm {
+    width: 40px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.membsm:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition-duration: 0.4s;
+}
+
+.headers {
+    width: 100%
+}
+
+.albumpics {
+    border: 2px solid black;
+}
 
 .bandsintown {
     width: 450px;
@@ -211,8 +294,8 @@ body {
 }
 
 .logo:hover {
-    -webkit-filter: drop-shadow(1px 1px 5px #ff8533);
-    filter: drop-shadow(1px 1px 5px #ff8533);
+    -webkit-filter: drop-shadow(1px 1px 5px red);
+    filter: drop-shadow(1px 1px 5px red);
     transition-duration: 0.1s;
 }
 
@@ -222,14 +305,18 @@ body {
     width: 50%;
 }
 
+.sm:hover {
+     -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transition-duration: 0.4s;
+}
+
 .fbsm {
     width: 30%;
 }
 
-.sm:hover {
-	 -webkit-filter: grayscale(0%);
-    filter: grayscale(0%);
-    transition-duration: 0.4s;
+.igsm {
+    width: 40%;
 }
 
 .column {
@@ -246,6 +333,16 @@ body {
 
 /*CONTAINER STYLES*/
 
+.albumlinkdivs {
+    background-color: #ebebe0;
+    padding: 5%;
+}
+
+.blackdivs {
+    padding: 5%;
+    background-color: black;
+}
+
 .firstcont {
   margin-top: 5%;
 }
@@ -261,12 +358,12 @@ body {
 }
 
 .menudivs:hover {
-  background-color: white;
+  background-color: black;
   transition-duration: 0.4s;
 }
 
 .menudivs:hover .menulink {
-    color: black;
+    color: white;
     text-decoration: none;
     font-family: 'Lobster', cursive;
 }
