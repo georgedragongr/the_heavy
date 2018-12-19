@@ -97,6 +97,7 @@ body {
 
 .span4 {
      color: red;
+     font-family: 'Oswald', sans-serif;
 }
 
 .span3:hover {
@@ -125,7 +126,6 @@ body {
     color: black;
     font-size: 20px;
     cursor: default;
-    font-weight:bold;
 }
 
 .txt5{
@@ -162,7 +162,7 @@ body {
 
 .albumlink2:hover {
     font-family: 'Oswald', sans-serif;
-    color: #4da6ff;
+    color: #ff80bf;
     text-decoration: none;
     transition-duration: 0.4s;
 }
@@ -171,19 +171,18 @@ body {
     font-family: 'Oswald', sans-serif;
     color: black;
     font-size: 20px;
-    font-weight:bold;
 }
 
 .albumlink3:hover {
     font-family: 'Oswald', sans-serif;
-    color: #cc0000;
+    color: #ff3399;
     text-decoration: none;
     transition-duration: 0.4s;
 }
 
 .albumlink3:hover .span3 {
     font-family: 'Oswald', sans-serif;
-    color: #cc0000;
+    color: #ff3399;
     text-decoration: none;
     transition-duration: 0.4s;
 }
@@ -225,10 +224,17 @@ body {
 
 .hthree:hover {
     font-family: 'Oswald', sans-serif;
-    color: red;
+    color: #ff0066;
     font-size: 1.6em;
     text-decoration: none;
     transition-duration: 0.4s;
+}
+
+.hthree:hover .span4 {
+    font-family: 'Oswald', sans-serif;
+    color: #33cc00;
+    text-decoration: none;
+    transition-duration: 0.4s; 
 }
 
 .menulink {
@@ -259,6 +265,8 @@ body {
 
 .membsm {
     width: 40px;
+    padding: auto;
+    margin: auto;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
@@ -334,13 +342,13 @@ body {
 /*CONTAINER STYLES*/
 
 .albumlinkdivs {
-    background-color: #ebebe0;
+    background-color: #e6e6e6;
     padding: 5%;
 }
 
 .blackdivs {
     padding: 5%;
-    background-color: black;
+    background-color: #1a1a1a;
 }
 
 .firstcont {
