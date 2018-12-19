@@ -29,20 +29,34 @@ body {
 }
 
 /* LOADER */
+
 #loader {
-    position: absolute;
-    left: 40%;
-    top: 40%;
-    z-index: 1;
-    width: 150px;
-    height: 150px;
-    margin: -65px 0 0 -65px;
+    width: 100%;
+}
+
+#loaderimg {
     background-image: url("../img/logo.png");
     background-repeat: no-repeat;
-    width: 400px;
-    height: 400px;
+    background-size: contain;
+    margin: 15% auto 0 auto;
+    width: 150px;
+    height: 80px;
     -webkit-animation: pulse 1s infinite;
     animation: pulse 1s infinite;
+}
+
+@media only screen and (min-width: 350px) {
+    #loaderimg {
+        width: 300px;
+        height: 160px;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #loaderimg {
+        width: 450px;
+        height: 240px;
+    }
 }
 
 @-webkit-keyframes pulse {
@@ -175,14 +189,14 @@ body {
 
 .albumlink3:hover {
     font-family: 'Oswald', sans-serif;
-    color: #ff3399;
+    color: #2eb82e;
     text-decoration: none;
     transition-duration: 0.4s;
 }
 
 .albumlink3:hover .span3 {
     font-family: 'Oswald', sans-serif;
-    color: #ff3399;
+    color: #2eb82e;
     text-decoration: none;
     transition-duration: 0.4s;
 }
