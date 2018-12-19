@@ -97,6 +97,19 @@ body {
 }
 /*TEXT STYLES*/
 
+#mylink {
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+}
+
+#mylink:hover {
+    cursor: pointer;
+    font-family: 'Lobster', cursive;
+    text-decoration: none;
+    color: #1a53ff;
+    transition-duration: 0.4s;
+}
+
 .span1 {
 	 color: red;
 }
@@ -112,6 +125,17 @@ body {
 .span4 {
      color: red;
      font-family: 'Oswald', sans-serif;
+}
+
+.span5 {
+    color: red;
+    font-family: 'Lobster', cursive;
+}
+
+.span5:hover {
+    color: #1a53ff;
+    text-decoration: none;
+    transition-duration: 0.4s;
 }
 
 .span3:hover {
